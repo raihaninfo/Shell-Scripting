@@ -39,6 +39,3 @@ which $SHELL
 ```
 
 Linux Shell location ``` /bin/bash ```
-
-
-
