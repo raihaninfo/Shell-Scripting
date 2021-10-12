@@ -1,0 +1,7 @@
+command.sh
+freeram.sh
+hello.sh
+ls_out_from_shell.txt
+ls_out.txt
+server.sh
+variables.sh
