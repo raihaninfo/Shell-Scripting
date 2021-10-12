@@ -1,11 +1,17 @@
 #!/bin/bash
 
 # Print hello world 
-echo "Hello User"
+echo "Hello, Welcome to Shell Scripting"
 
-# file list
-ls
-# show caladar
-cal
-# show date
-date
+echo Hello Raihan
+
+# difference between single quotes and double quotes and without quotes
+
+echo "*******************"
+echo "$(ls)"
+
+echo "*******************"
+echo '$(ls)'
+
+echo "*******************"
+echo $(ls)
