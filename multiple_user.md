@@ -56,3 +56,17 @@ sudo usermod -a -G development,operations dev-3
 ```
 
 ![output 3](images/Screenshot3.png)
+
+
+Finally, let's create a new group, `devops` , which we will use to share files between `developers` and `operations`. After creating the group, we will add both `dev-1` and `dev-2` to this group, in the same way we added `dev-3` to the development and operations groups:
+
+```
+sudo groupadd devops
+sudo usermod -a -G devops dev-1
+sudo usermod -a -G devops dev-2
+```
+
+We continued with an example of working with multiple users. We added three additional
+users to the system using useradd , and gave them the correct groups with usermod . We
+saw how those users can be members of the same groups and, in that way, share access to
+files.
