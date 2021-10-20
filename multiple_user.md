@@ -49,7 +49,7 @@ sudo mkdir devops-files
 ![Output 2](images/Screenshot2.png)
 
 
-## We now have the following structure: a ```/data/``` top level directory, which contains the directories ```dev-files``` and ```ops-files``` , which are owned by the `development` and `operations` groups, respectively. Now, let's fulfill the requirement that security can go into both directories and manage the files! Apart from using usermod to change the main groups, we can also append users to extra groups. In this case, the syntax is ``` usermod -a -G < groupnames > < username > ``` Let's add dev-3 to the ```development``` and ```operations``` groups:
+### We now have the following structure: a ```/data/``` top level directory, which contains the directories ```dev-files``` and ```ops-files``` , which are owned by the `development` and `operations` groups, respectively. Now, let's fulfill the requirement that security can go into both directories and manage the files! Apart from using usermod to change the main groups, we can also append users to extra groups. In this case, the syntax is ``` usermod -a -G < groupnames > < username > ``` Let's add dev-3 to the ```development``` and ```operations``` groups:
 
 ```
 sudo usermod -a -G development,operations dev-3
