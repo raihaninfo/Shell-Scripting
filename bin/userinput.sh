@@ -13,3 +13,7 @@ name=${1}
 id=${2}
 
 echo "Hello $name your id $id"
+
+read -p "What day is it? " day_of_week
+
+echo ${day_of_week}
