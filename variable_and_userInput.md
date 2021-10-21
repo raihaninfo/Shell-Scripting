@@ -46,3 +46,14 @@ Hello Raihan
 
 ![user input](images/userinput.png)
 
+## User input Another way 
+
+```
+#!/bin/bash
+
+read -p "What day is it? " day_of_week
+
+echo ${day_of_week}
+```
+
+![User Input 2](images/userinput2.png)
