@@ -29,7 +29,7 @@ name=${1}
 
 echo "Hello $name"
 ```
-## Execute permission
+## Execution permission
 
 ```
 chmod +x userinput.sh
