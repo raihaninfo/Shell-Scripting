@@ -16,3 +16,33 @@ hello_int=1
 echo ${hello_text}
 echo ${hello_int}
 ```
+
+## Basic input
+At a very basic level, everything that you put on the command line right after calling the
+script can be used as input. However, it is up to the script to use it! For example, consider
+the following situation:
+
+```
+#!/bin/bash
+
+name=${1}
+
+echo "Hello $name"
+```
+## Execute permission
+
+```
+chmod +x userinput.sh
+```
+
+## Run
+```
+$ ./userinput.sh Raihan
+```
+## Output
+```
+Hello Raihan
+```
+
+![user input](images/userinput.png)
+
