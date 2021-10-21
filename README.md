@@ -16,7 +16,7 @@ details in  [wikipedia](https://en.wikipedia.org/wiki/Shell_script)
 - Sh Shell 
 - Ksh Shell
 - C Shell 
-- etc.
+- etc
 
 ### Shell list
 ```
