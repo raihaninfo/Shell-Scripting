@@ -8,6 +8,8 @@
 # Usage: ./hello-world-variable.sh
 #####################################
 
+# input syntax => ./userinput.sh <input>
 name=${1}
+id=${2}
 
-echo "Hello $name"
+echo "Hello $name your id $id"
