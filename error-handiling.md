@@ -42,6 +42,8 @@ cat ${FILE}
 ## if-then-else
 
 ```
+#!/bin/bash
+
 FILE=/tmp/random_file.txt
 
 # Check if the file exists.
