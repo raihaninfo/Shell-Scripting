@@ -19,3 +19,15 @@ fi
 cat ${FILE}
 multilinecomment
 
+# Create a new top-level directory.
+mkdir /temporary_dir
+DIR=$?
+
+
+# Test if the directory was created successfully.
+if [[ ${DIR} -ne 0 ]]; then
+echo "mkdir did not successfully complete, stop script execution!"
+exit 1
+fi
+# Create a new file in our temporary directory.
+touch tempfile.txt
