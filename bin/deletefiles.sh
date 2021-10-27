@@ -3,7 +3,7 @@
 user=${1}
 path=${2}
 function delete() {
-    # FILE_PATH=
+
     if [ -f ${2} ]; then
         sudo -u ${1} rm -r ${2}
         echo "File removed"
