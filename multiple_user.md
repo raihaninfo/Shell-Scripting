@@ -21,7 +21,7 @@ sudo groupadd operations
 sudo groupadd security
 ```
 
-## We will add the user to the group.
+## We will add the user to the group
 <hr>
 
 ### SYNTAX
