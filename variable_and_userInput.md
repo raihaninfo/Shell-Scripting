@@ -56,4 +56,4 @@ read -p "What day is it? " day_of_week
 echo ${day_of_week}
 ```
 
-![User Input 2](images/userinput2.png)
+![User Input two](images/userinput2.png)
