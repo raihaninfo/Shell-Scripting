@@ -1,8 +1,5 @@
 # Script header
-In our scripting endeavors, we always include a header at the beginning of the script. While
-this is not necessary for the functioning of the script, it can help greatly when other people
-are working with your scripts (or, again, when you're working with other people's scripts).
-A header can include any information you think is needed, but in general we always start
+In our scripting endeavors, we always include a header at the beginning of the script. While this is not necessary for the functioning of the script, it can help greatly when other people are working with your scripts (or,again, when you're working with other people's scripts). A header can include any information you think is needed, but in general we always start
 with the following fields:
 - Author
 - Version
