@@ -20,4 +20,3 @@ for (( ; ; ))
     fi
     no_chances=$((no_chances + 1))
 done
-echo "your are fail"
